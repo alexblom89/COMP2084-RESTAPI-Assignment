@@ -69,7 +69,7 @@ namespace COMP2084Assignment.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (Photo.Length > 0)
+                if (Photo != null)
                 {
                     var filePath = Path.GetTempFileName();
                     var fileName = Guid.NewGuid() + "-" + Photo.FileName;
