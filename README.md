@@ -5,3 +5,5 @@ The web app must contain user authentication and authorization, a REST API, an S
 Authentication must include both local and Google authentication.
 
 The app must also have unit test coverage for one controller's methods, using mock data in an in-memory database.
+
+I chose to provide a simple REST API to allow users to manage a database of videogame titles and their genres and platforms.
